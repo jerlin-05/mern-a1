@@ -28,12 +28,12 @@ body {
 /* Navbar */
 nav {
   background: #333;
-  color: white;
+  color: rgb(14, 13, 13);
   padding: 10px;
 }
 
 nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   margin-right: 10px;
   text-decoration: none;
 }
