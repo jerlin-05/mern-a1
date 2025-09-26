@@ -1,0 +1,68 @@
+
+
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #f5f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Basic container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+nav {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Form fields */
+input {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
